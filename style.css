@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.gallery div {
+    margin: 10px;
+}
+.gallery img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ddd;
+    padding: 5px;
+    border-radius: 10px;
+}
+.gallery p {
+    margin-top: 10px;
+    font-weight: bold;
+}
